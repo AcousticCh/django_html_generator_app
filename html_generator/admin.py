@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import MarkdownModel, HtmlModel
 
-# Register your models here.
+admin.site.register(MarkdownModel)
+admin.site.register(HtmlModel)
